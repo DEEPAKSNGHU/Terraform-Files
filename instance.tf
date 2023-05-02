@@ -13,7 +13,7 @@ resource "aws_instance" "linux" {
 }
 
 resource "aws_s3_bucket" "gogomaster" {
-  bucket = "gogomaster"
+  bucket = "gogomaster1"
 
   tags = {
     Name        = "var.tag"
