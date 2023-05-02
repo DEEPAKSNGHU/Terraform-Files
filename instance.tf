@@ -6,9 +6,11 @@ resource "aws_instance" "linux" {
   security_groups      = ["Terraform-Sg"]
 
   tags = {
-    "Name"    = var.Tagname
-    "Created" = var.Date
-    "Env"     = var.Env
+    Name    = var.Tagname
+    Created = var.Date
+    Env     = var.Env
+    CreatedOn = "Today"
+    
   }
 }
 
