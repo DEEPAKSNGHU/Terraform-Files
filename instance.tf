@@ -3,7 +3,7 @@ resource "aws_instance" "linux" {
   instance_type        = var.instancetype
   key_name             = var.key
   iam_instance_profile = var.iam_instance_profile
-  security_groups      = ["Terraform-Sg"]
+  
 
   tags = {
     Name    = var.Tagname
