@@ -10,6 +10,7 @@ resource "aws_instance" "linux" {
     Created = var.Date
     Env     = var.Env
     CreatedOn = "Today"
+    OS = "Windows"
     
   }
 }
