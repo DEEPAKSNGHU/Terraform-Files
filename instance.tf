@@ -8,7 +8,7 @@ resource "aws_instance" "linux" {
   tags = {
     Name    = var.Tagname
     Created = var.Date
-    Env     = var.Env
+    Environment     = var.Env
     CreatedOn = "Today"
     OS = "Windows"
     
